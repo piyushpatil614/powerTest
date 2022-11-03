@@ -1,7 +1,7 @@
 
-var fs = require('fs');
+let fs = require('fs');
 const path=require('path')
-var fileName = process.argv[2] 
+let fileName = process.argv[2] 
 //|| path.join(__dirname,'sample_input','input1.txt') ;
 if(fileName==null)
 {
