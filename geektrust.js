@@ -5,7 +5,7 @@ var fileName = process.argv[2]
 //|| path.join(__dirname,'sample_input','input1.txt') ;
 if(fileName==null)
 {
-    fileName=path.join(__dirname,'sample_input','input1.txt')
+    fileName=path.join(__dirname,'test','input1.txt')
 }
 const lib=require('./allFunction')
 
